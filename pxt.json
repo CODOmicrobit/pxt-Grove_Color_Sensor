@@ -1,0 +1,21 @@
+{
+    "name": "GroveColorSensor",
+    "version": "0.0.1",
+    "description": "Grove micro:bit color sensor",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "Grove_Color_Sensor.ts"
+    ],
+    "testFiles": [
+        "test1.ts"
+    ],
+    "public": true,
+    "yotta": {
+        "config": {}
+    },
+    "installedVersion": "workspace:1c2cdc9a-733d-4d2f-4ac1-a5aa18f80950"
+}
