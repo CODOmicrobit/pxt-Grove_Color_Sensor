@@ -1,9 +1,9 @@
 /**
- * Librairie Makecode pour robot CODO.
+ * Librairie Makecode pour Grove_Color_Sensor.
  */
 
 
-//% weight=1 color=#004696 icon="\uf121" block="CODO" advanced=false
+//% weight=1 color=#004696 icon="\uf121" block="Grove_Color_Sensor" advanced=false
 namespace A4_Robot_Driver {
     export enum MotorDirection {
         //% block="Avancer"
@@ -56,7 +56,7 @@ namespace A4_Robot_Driver {
      */
 
     //% blockId=A4_Robot_Driver_Robot_Move
-    //% block="CODO %dir| vitesse %speed"
+    //% block="Grove_Color_Sensor %dir| vitesse %speed"
     //% speed.min=0 speed.max=100
     //% parts="A4_Robot_Driver" advanced=false
     //% speed.defl=75
