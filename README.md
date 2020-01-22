@@ -1,3 +1,2 @@
-# pxt-Grove_Color_Sensor
-
-Test program for Grove Color Sensor
+# CODO
+Grove micro:bit Project Board
