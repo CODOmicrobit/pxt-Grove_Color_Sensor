@@ -3,7 +3,7 @@
 //
 
 //% weight=1 color=#004696 icon="\uf121" block="GroveColorSensor" advanced=false
-namespace A4_Robot_Driver {
+namespace GroveColorSensor {
     //% block
     //% x.defl=42
     export function foo(x: number) {
