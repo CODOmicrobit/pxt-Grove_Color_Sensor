@@ -6,13 +6,13 @@
 namespace GroveColorSensor {
     //% block
     //% x.defl=42
-    export function foo(x: number) {
+    export function init_sensor(x: number) {
 
     }
 
     //% block
     //% s.defl="hi!"
-    export function bar(s: string) {
+    export function deinit_sensor(s: string) {
 
     }
 }
