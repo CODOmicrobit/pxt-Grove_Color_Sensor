@@ -1,6 +1,6 @@
 {
     "name": "Grove_Color_Sensor",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Grove micro:bit project board",
     "license": "MIT",
     "dependencies": {
