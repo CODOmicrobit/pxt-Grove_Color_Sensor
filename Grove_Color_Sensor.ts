@@ -56,11 +56,11 @@ namespace A4_Robot_Driver {
      */
 
     //% blockId=A4_Robot_Driver_Robot_Move
-    //% block="Groove_Color_Sensor %dir| vitesse %speed"
+    //% block="Groove_Color_Sensor BV %dir| vitesse %speed"
     //% speed.min=0 speed.max=100
     //% parts="A4_Robot_Driver" advanced=false
     //% speed.defl=75
-    export function robotMoves(dir: RobotDirection, speed: number): void {
+    export function robotMove(dir: RobotDirection, speed: number): void {
         setSpeed(Motors.MotorFull, speed);
         switch (dir) {
             case RobotDirection.Forward:
