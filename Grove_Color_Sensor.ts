@@ -11,7 +11,7 @@ enum Couleur {
 //% weight=1 color=#004696 icon="\uf121" block="Grove_Color_Sensor" advanced=false
 namespace Grove_Color_Sensor {
     //% block
-    export function get_color() {
+    export function get_color(coul: Couleur) {
         pins.i2cWriteNumber( 41, 146, NumberFormat.Int8BE, false)
         let nums: numbernums = pins.i2cReadNumber(41, NumberFormat.UInt8BE, false)
         return nums;
